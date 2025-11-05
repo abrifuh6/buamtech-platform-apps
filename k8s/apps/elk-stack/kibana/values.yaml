@@ -1,0 +1,15 @@
+elasticsearchHosts: "http://elasticsearch-master:9200"
+service:
+  type: ClusterIP
+ingress:
+  enabled: true
+  className: nginx
+  hosts:
+    - host: kibana.buamtech.cloud
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - hosts:
+        - kibana.buamtech.cloud
+      secretName: kibana-tls
