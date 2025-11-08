@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/abrifuh6/buamtech-platform-apps.git'
+    repoURL: https://github.com/abrifuh6/buamtech-platform-apps.git
     targetRevision: master
     path: k8s/apps/elk-stack
   destination:

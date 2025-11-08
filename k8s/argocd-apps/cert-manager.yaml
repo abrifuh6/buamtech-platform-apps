@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://charts.jetstack.io'
+    repoURL: https://charts.jetstack.io
     chart: cert-manager
     targetRevision: v1.15.2
     helm:
@@ -29,7 +29,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/abrifuh6/buamtech-platform-apps.git'
+    repoURL: https://github.com/abrifuh6/buamtech-platform-apps.git
     targetRevision: master
     path: k8s/addons/cert-manager
   destination:
